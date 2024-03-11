@@ -106,7 +106,7 @@ public class PersonController {
             break;
         }
 
-        // Filter and sort based on user input, print each entry that matches in our list of Person's
+        // Filter and sort based on our user input, print each entry that matches in our list of Person's and print total
         List<Person> filteredList = filterAndSort(personList, filter, operator, value, sortOrder);
         filteredList.forEach(System.out::println);
         System.out.println("\nTotal: " + filteredList.size());
@@ -114,6 +114,8 @@ public class PersonController {
     }
 
     private List<Person> filterAndSort(List<Person> personList, Filter filter, Operator operator, String value, SortOrder sortOrder) {
+        // Filters the provided list of Person objects using the matchesCriteria method
+        // After filtering, the method sorts the resulting list based on the specified sortOrder and field to sort on
         return personList.stream()
                 .filter(person -> matchesCriteria(person, filter, operator, value))
                 .sorted(getComparator(filter, sortOrder))
