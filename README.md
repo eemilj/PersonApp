@@ -16,13 +16,13 @@ To install, follow these steps:
 
 ```
 git clone https://github.com/eemilj/PersonApp.git
-cd yourprojectname
+cd PersonApp
 ```
 
 
 ## Using PersonApp
 
-To use <ProjectName>, follow these steps:
+To use PersonApp, follow these steps:
 
 1. Open a terminal in the project's root directory.
 2. Run the following command to clean the project, compile the source code, and package it into a JAR file:
