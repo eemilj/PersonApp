@@ -107,7 +107,9 @@ public class PersonController {
         }
 
         // Filter and sort based on user input, print each entry that matches in our list of Person's
-        filterAndSort(personList, filter, operator, value, sortOrder).forEach(System.out::println);
+        List<Person> filteredList = filterAndSort(personList, filter, operator, value, sortOrder);
+        filteredList.forEach(System.out::println);
+        System.out.println("\nTotal: " + filteredList.size());
 
     }
 
