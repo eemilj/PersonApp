@@ -1,0 +1,92 @@
+[
+  {
+    "firstName": "Donald",
+    "lastName": "Duck",
+    "age": 86,
+    "gender": "male"
+  },
+  {
+    "firstName": "Donald",
+    "lastName": "Duck",
+    "age": 86,
+    "gender": "male"
+  },
+  {
+    "firstName": "Scrooge",
+    "lastName": "McDuck",
+    "age": 75,
+    "gender": "male"
+  },
+  {
+    "firstName": "Daisy",
+    "lastName": "Duck",
+    "age": 82,
+    "gender": "female"
+  },
+  {
+    "firstName": "Mickey",
+    "lastName": "Mouse",
+    "age": 93,
+    "gender": "male"
+  },
+  {
+    "firstName": "Minnie",
+    "lastName": "Mouse",
+    "age": 93,
+    "gender": "female"
+  },
+  {
+    "firstName": "Gyro",
+    "lastName": "Gearloose",
+    "age": 70,
+    "gender": "male"
+  },
+  {
+    "firstName": "Little",
+    "lastName": "Helper",
+    "age": 66,
+    "gender": "other"
+  },
+  {
+    "firstName": "Goofy",
+    "lastName": "Goof",
+    "age": 90,
+    "gender": "male"
+  },
+  {
+    "firstName": "Magica",
+    "lastName": "De Spell",
+    "age": 81,
+    "gender": "female"
+  },
+  {
+    "firstName": "Gladstone",
+    "lastName": "Gander",
+    "age": 74,
+    "gender": "male"
+  },
+  {
+    "firstName": "Huey",
+    "lastName": "Duck",
+    "age": 85,
+    "gender": "male"
+  },
+  {
+    "firstName": "Dewey",
+    "lastName": "Duck",
+    "age": 85,
+    "gender": "male"
+  },
+  {
+    "firstName": "Louie",
+    "lastName": "Duck",
+    "age": 85,
+    "gender": "male"
+  },
+  {
+    "firstName": "Eega",
+    "lastName": "Beeva",
+    "age": 75,
+    "gender": "other"
+  }
+]
